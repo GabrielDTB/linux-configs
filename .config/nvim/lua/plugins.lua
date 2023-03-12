@@ -41,4 +41,6 @@ return require('packer').startup(function()
     -- Auto-pair characters
     use 'windwp/nvim-autopairs'
     use 'tpope/vim-surround'
+    -- Lots of little things 
+    use 'echasnovski/mini.nvim'
 end)
