@@ -45,4 +45,6 @@ return require('packer').startup(function()
     use 'echasnovski/mini.nvim'
     -- Coding stats
     use 'wakatime/vim-wakatime'
+    -- Java lsp 
+    use 'mfussenegger/nvim-jdtls'
 end)
