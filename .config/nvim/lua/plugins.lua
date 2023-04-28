@@ -47,4 +47,5 @@ return require('packer').startup(function()
     use 'wakatime/vim-wakatime'
     -- Java lsp 
     use 'mfussenegger/nvim-jdtls'
+    use { "zbirenbaum/copilot.lua" }
 end)
