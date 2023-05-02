@@ -43,9 +43,8 @@ return require('packer').startup(function()
     use 'tpope/vim-surround'
     -- Lots of little things 
     use 'echasnovski/mini.nvim'
-    -- Coding stats
-    use 'wakatime/vim-wakatime'
     -- Java lsp 
     use 'mfussenegger/nvim-jdtls'
+    -- Copilot
     use { "zbirenbaum/copilot.lua" }
 end)
