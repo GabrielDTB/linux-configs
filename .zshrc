@@ -120,3 +120,16 @@ setopt HIST_IGNORE_ALL_DUPS
 
 # Add pip scripts to PATH
 export PATH="$HOME/.local/bin:$PATH"
+
+# Aliases
+alias yay="paru"
+alias meh="paru"
+alias update="paru -Syu"
+alias remove="paru -Rns"
+alias gc="git add . ; git commit -m"
+alias install="sudo pacman -S"
+
+# Wayland firefox
+if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
+    export MOZ_ENABLE_WAYLAND=1
+fi
