@@ -15,7 +15,7 @@
 # Laptop screen
     output eDP-1 resolution 2256x1504 scale 1.174
 # Random backgrounds
-    output * bg `find $HOME/Images/wallpapers -type f | shuf -n 1` fill
+    output * bg `find $HOME/Images/wallpapers/ -type f | shuf -n 1` fill
 # Borders
     client.focused $onedark_highlight $onedark_highlight $onedark_highlight $onedark_highlight $onedark_highlight
     client.focused_inactive $onedark_background $onedark_background $onedark_background $onedark_background $onedark_background
